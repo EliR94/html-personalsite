@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+}
+
+#header {
+    height: 650px;
+    background-color: #cff0e3;
+    color: #FF9EAA;
+    font-family: 'Kalam', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sun {
+    width: 300px;
+    align-self: flex-end;
+    margin-right: 150px;
+}
+
+#cloud {
+    width: 400px;
+    margin-left: 150px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+#intro, #resume, #projects, #contact {
+    padding: 0 300px;
+}
+
+#footer {
+    background-color: #3AA6B9;
+    color: rgb(255, 246, 244);
+    padding: 10px;
+    margin: 0;
+}
+
+#footer p {
+    margin: 0px;
+}
+
+h2 {
+    color: #3AA6B9;
+}
+
+h3 {
+    color: #FF9EAA;
+}
+
+#projects a {
+    font-weight: bold;
+    color: #FF9EAA ;
+}
+
+#projects img {
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #3AA6B9;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 1200px) {
+    #intro, #resume, #projects, #contact {
+        padding: 0 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    #intro, #resume, #projects, #contact {
+        padding: 0 50px;
+    }
+}
+
+
+/* CONTACT ME PAGE */
+
+#contact_me_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+#contact_me_page h2 {
+    margin: 30px 0;
+}
+
+#contact_me_page .contact_info {
+    text-align: left;
+}
+
+#contact_me_page ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+#contact_me_page span {
+    font-weight: bold;
+    color: #FF9EAA;
+}
+
+#contact_me_page .address {
+    margin: 0;
+}
+
+#contact_me_page .address_grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+/* light green = #cff0e3 */
+/* teal ish = #3AA6B9 */
+/* light pink = #F0B6CF */
+/* dark pink = #FF9EAA */
